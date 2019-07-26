@@ -80,7 +80,7 @@ func init() {
 
 	state, err = run.NewCleanupManifestsState(run.CleanupManifestsStateConfig{ProjectId: projectId})
 	if err != nil {
-		log.Fatalf("Failed to generate cleanup-auctions state: %s", err.Error())
+		log.Fatalf("Failed to generate cleanup-manifests state: %s", err.Error())
 
 		return
 	}
